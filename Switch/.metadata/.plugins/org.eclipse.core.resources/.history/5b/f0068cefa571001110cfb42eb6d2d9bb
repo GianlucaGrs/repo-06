@@ -1,0 +1,38 @@
+package swirtch;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		String color;
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Escreva sua cor favorita das a seguir: azul verde cinza rosa roxo: ");
+		color = sc.next();
+		
+		switch (color) {
+		
+		case "verde":
+			System.out.print(" Sua cor é verde");
+			break;
+			
+		case "azul":
+			System.out.print(" Sua cor é azul");
+			break;
+		case "cinza":
+			System.out.print(" Sua cor é cinza");
+			break;
+		case "roxo":
+			System.out.print(" Sua cor é roxo");
+			break;
+		case "rosa":
+			System.out.print(" Sua cor é rosa");
+			break;
+			default:
+				
+				System.out.println("Cor invalida");
+			
+
+		}
+	}
+
+}
